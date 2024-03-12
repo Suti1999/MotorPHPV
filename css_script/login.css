@@ -1,0 +1,58 @@
+/*KARTYA*/
+.card{
+    width: 400px;
+    height: auto;
+    padding: auto;
+    margin: auto;
+    margin-top: 100px;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    color: #fff;
+}
+
+/*FELULET*/
+.input-group-text{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.50);
+    border: 1px solid rgba(255, 255, 255, 0.40);
+}
+
+.elfelejtettJelszo a{
+    margin-left: 210px;
+    text-decoration: none;
+    
+}
+
+.elfelejtettJelszo p {
+    margin-top: -15px;
+}
+
+/*BEJELENTKEZES_GOMB*/
+.btn{
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.btn-primary:hover{
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    transform: translateY(-8px);
+    transition: .2s;
+}
+
+.btn-primary:not(:hover){
+    transition: 0.2s;
+    transform: scale(1);
+}
