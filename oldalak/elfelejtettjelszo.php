@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="./css_script/elfelejtettjelszo.css"/>
 
 
-
  <div class="card position-relative"> 
     <!--KARTYA_CIM-->
     <div class="card-header text-center text-md-center">

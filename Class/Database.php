@@ -141,5 +141,5 @@ class Database {
         header("Location: index.php");
         exit();
     }
-
+   
 }
